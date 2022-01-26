@@ -6,7 +6,7 @@ const Home = ({socket}) => {
 
     const [username, setUsername] = useState("")
     const [roomname, setRoomname] = useState("")
-    const url = 'http://localhost:3000/'
+    const url = 'https://lucid-ptolemy-a40286.netlify.app/'
 
     async function copyToClipboard (text) {
         if('clipboard' in navigator){
